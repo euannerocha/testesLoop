@@ -34,3 +34,12 @@
 
 
 # print("Hello World!")
+
+
+# def maiorValor(n):
+#     lista = []
+#     for i in range (0, n):
+#         lista.append(input("Digite um valor: "))
+#     print(lista)
+
+# maiorValor(3)
