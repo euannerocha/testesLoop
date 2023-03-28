@@ -43,3 +43,21 @@
 #     print(lista)
 
 # maiorValor(3)
+
+#BHASKARA
+
+
+a = float(input("Digite o valor de A: "))
+b = float(input("Digite o valor de B: "))
+c = float(input("Digite o valor de C: "))
+
+pt1 = b*(-1)
+delta = ((b**2) - 4*a*c)**(1/2)
+div = 2*a
+
+xLinha = (pt1 + delta)/div
+xDuasLinhas = (pt1 - delta)/div
+
+print(f"{xLinha:.4f}, {xDuasLinhas:.4f}")
+print("{:.4f}, {:.4f}".format(xLinha, xDuasLinhas))
+
