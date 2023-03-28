@@ -1,29 +1,31 @@
 # FOR
-# lista = [2, 4, 6, 8, 9, 10, 12, 13]
+# pangare = [2, 4, 6, 8, 9, 10, 12, 13]
 
-# for n in lista:
-#     if n % 2 != 0:
+# for sacoDiBosta in range(0, len(pangare)):
+#     if sacoDiBosta % 2 != 0:
 #         continue
-#     elif n == 6:
+#     elif sacoDiBosta == 6:
 #         continue
-#     elif n == 8:
-#         continue
+#     elif sacoDiBosta == 8:
+#         print("Fodeo")
+#         break
 #     else:
-#         print(n)
+#         print(sacoDiBosta)
 
 # print("Deu tudo certo!")
 
 # def calcula(x):
 #     pass
 
+
 #WHILE
-# variavel = 1
+# contador = 1
 # lista = [1, 2, 3]
 
-# while variavel <= 10:
-#     print(variavel)
-#     variavel += 1
-#     lista.append(variavel)
+# while contador <= 10:
+#     print(contador)
+#     contador += 1
+#     lista.append(contador)
 
 # print(lista)
 
@@ -47,17 +49,17 @@
 #BHASKARA
 
 
-a = float(input("Digite o valor de A: "))
-b = float(input("Digite o valor de B: "))
-c = float(input("Digite o valor de C: "))
+# a = float(input("Digite o valor de A: "))
+# b = float(input("Digite o valor de B: "))
+# c = float(input("Digite o valor de C: "))
 
-pt1 = b*(-1)
-delta = ((b**2) - 4*a*c)**(1/2)
-div = 2*a
+# pt1 = b*(-1)
+# delta = ((b**2) - 4*a*c)**(1/2)
+# div = 2*a
 
-xLinha = (pt1 + delta)/div
-xDuasLinhas = (pt1 - delta)/div
+# xLinha = (pt1 + delta)/div
+# xDuasLinhas = (pt1 - delta)/div
 
-print(f"{xLinha:.4f}, {xDuasLinhas:.4f}")
-print("{:.4f}, {:.4f}".format(xLinha, xDuasLinhas))
+# print(f"{xLinha:.4f}, {xDuasLinhas:.4f}")
+# print("{:.4f}, {:.4f}".format(xLinha, xDuasLinhas))
 
